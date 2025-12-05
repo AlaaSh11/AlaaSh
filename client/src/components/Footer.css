@@ -1,0 +1,33 @@
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: var(--bg-color);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    color: var(--text-secondary);
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--accent-primary);
+    transform: translateY(-3px);
+}
+
+.footer-credit {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.footer-credit a:hover {
+    color: var(--accent-primary);
+}

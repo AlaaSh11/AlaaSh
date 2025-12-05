@@ -1,0 +1,36 @@
+.contact-section {
+    padding: 100px 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-overline {
+    font-family: var(--font-mono);
+    color: var(--accent-primary);
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.contact-title {
+    font-size: clamp(3rem, 5vw, 4rem);
+    color: var(--text-primary);
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.contact-description {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+    line-height: 1.6;
+}
+
+.contact-btn {
+    padding: 1.25rem 2rem;
+    font-size: 1rem;
+}
