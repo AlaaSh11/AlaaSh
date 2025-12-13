@@ -38,12 +38,24 @@ const Contact = () => {
                 </motion.p>
 
                 <motion.div
+                    className="contact-form-wrapper"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.3 }}
                 >
-                    <a href="mailto:contact@alaashehayyeb.com" className="btn btn-primary contact-btn">Say Hello</a>
+                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" className="contact-form">
+                        <div className="form-group">
+                            <input type="text" name="name" placeholder="Name" required />
+                        </div>
+                        <div className="form-group">
+                            <input type="email" name="email" placeholder="Email" required />
+                        </div>
+                        <div className="form-group">
+                            <textarea name="message" rows="5" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" className="btn btn-primary contact-btn">Send Message</button>
+                    </form>
                 </motion.div>
             </div>
         </section>

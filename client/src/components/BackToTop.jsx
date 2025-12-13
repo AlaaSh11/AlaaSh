@@ -29,7 +29,7 @@ const BackToTop = () => {
     return (
         <AnimatePresence>
             {isVisible && (
-                <motion.div
+                <motion.button
                     className="back-to-top"
                     onClick={scrollToTop}
                     initial={{ opacity: 0, y: 20 }}
@@ -37,9 +37,10 @@ const BackToTop = () => {
                     exit={{ opacity: 0, y: 20 }}
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
+                    aria-label="Back to top"
                 >
                     <FaArrowUp />
-                </motion.div>
+                </motion.button>
             )}
         </AnimatePresence>
     );

@@ -27,11 +27,16 @@ const Navbar = () => {
                     <span className="logo-text">Shehayyeb</span>
                 </div>
 
-                <div className={`menu-icon ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
+                <button
+                    className={`menu-icon ${menuOpen ? 'open' : ''}`}
+                    onClick={() => setMenuOpen(!menuOpen)}
+                    aria-label="Toggle navigation menu"
+                    aria-expanded={menuOpen}
+                >
                     <div className="bar"></div>
                     <div className="bar"></div>
                     <div className="bar"></div>
-                </div>
+                </button>
 
                 <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
                     {['Home', 'About', 'Projects', 'Skills', 'Contact'].map((item, index) => (
