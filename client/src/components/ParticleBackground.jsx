@@ -69,6 +69,7 @@ const ParticleBackground = () => {
                             area: 800,
                         },
                         value: 60,
+                        limit: 120,
                     },
                     opacity: {
                         value: 0.3,

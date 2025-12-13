@@ -25,10 +25,10 @@ const About = () => {
                         transition={{ duration: 0.5, delay: 0.2 }}
                     >
                         <p>
-                            Hello! My name is <span className="highlight">Alaa Shehayyeb</span>. I am a Computer Science student with a deep passion for <span className="highlight">CyberSecurity</span> and <span className="highlight">Web Development</span>.
+                            Hey! I'm <span className="highlight">Alaa Shehayyeb</span>. I'm a Computer Science student with a deep passion for <span className="highlight">CyberSecurity</span> and <span className="highlight">Web Development</span>.
                         </p>
                         <p>
-                            I am also the <span className="highlight">Founder</span> of several successful websites, where I combine my technical skills with entrepreneurial vision to build robust digital platforms. My focus is on creating secure, high-performance applications that solve real-world problems.
+                            I'm also the <span className="highlight">Founder</span> of several web projects, where I blend code with creativity. My goal is to build secure, high-performance applications that not only look great but work flawlessly.
                         </p>
                         <p>Here are a few technologies I've been working with recently:</p>
                         <ul className="skills-list">

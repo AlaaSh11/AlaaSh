@@ -33,7 +33,7 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.3 }}
                     >
-                        I build <span className="highlight">secure</span> & <span className="highlight">robust</span> digital experiences.
+                        I build <span className="highlight">secure</span>, <span className="highlight">robust</span>, and <span className="highlight">beautiful</span> web experiences.
                     </motion.h2>
 
                     <motion.p
@@ -42,8 +42,8 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.4 }}
                     >
-                        I'm a <span className="highlight">Founder</span> & <span className="highlight">Full-Stack Developer</span> specializing in CyberSecurity.
-                        I combine technical expertise with entrepreneurial vision to build high-performance, secure applications that solve real-world problems.
+                        I'm a <span className="highlight">Full-Stack Developer</span> & <span className="highlight">Founder</span> with a love for CyberSecurity.
+                        I combine technical expertise with creativity to build high-performance, secure applications that solve real-world problems.
                     </motion.p>
 
                     <motion.div
@@ -62,9 +62,9 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.6 }}
                     >
-                        <a href="https://github.com" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                        <a href="https://github.com/AlaaSh11" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-                        <a href="mailto:email@example.com"><FaEnvelope /></a>
+                        <a href="mailto:contact@alaashehayyeb.com"><FaEnvelope /></a>
                     </motion.div>
                 </div>
 

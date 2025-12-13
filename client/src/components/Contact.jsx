@@ -34,7 +34,7 @@ const Contact = () => {
                     transition={{ duration: 0.5, delay: 0.2 }}
                 >
                     I'm currently looking for new opportunities, whether it's a freelance project or a full-time position.
-                    My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                    My inbox is always open. Whether you have a question, a project idea, or just want to say hi, I'll try my best to get back to you!
                 </motion.p>
 
                 <motion.div
@@ -43,7 +43,7 @@ const Contact = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.3 }}
                 >
-                    <a href="mailto:your.email@example.com" className="btn btn-primary contact-btn">Say Hello</a>
+                    <a href="mailto:contact@alaashehayyeb.com" className="btn btn-primary contact-btn">Say Hello</a>
                 </motion.div>
             </div>
         </section>

@@ -6,21 +6,21 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="social-links">
-                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/AlaaSh11" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                     <FaGithub />
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                     <FaLinkedin />
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                     <FaTwitter />
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                     <FaInstagram />
                 </a>
             </div>
             <div className="footer-credit">
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/AlaaSh11" target="_blank" rel="noopener noreferrer">
                     Designed & Built by Alaa Shehayyeb
                 </a>
             </div>

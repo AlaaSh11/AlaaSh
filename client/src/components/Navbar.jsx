@@ -51,7 +51,7 @@ const Navbar = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 1 }}
                     >
-                        <a href="/resume.pdf" className="resume-btn">Resume</a>
+                        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">Resume</a>
                     </motion.li>
                 </ul>
             </div>
